@@ -31,6 +31,8 @@ Assuming all default flags, after running the binary open your web browser and g
 
 Insert the URL you wish to shorten into the top text field and press enter (or click the button). Then retrieve your shortened URL from the bottom text field.
 
+Closing the server is done by sending a SIGINT signal to the process (for example by pressing Ctrl+C in the terminal).
+
 ##### Caveats
 
 sus will shorten relative URL paths without prefixing them with schemes or domain names!
